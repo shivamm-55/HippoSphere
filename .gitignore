@@ -30,6 +30,9 @@ yarn-error.log*
 .env*.local
 .env
 
+# markdown
+COPY-PASTE-LIST.md
+
 # vercel
 .vercel
 
