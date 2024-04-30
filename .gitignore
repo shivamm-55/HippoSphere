@@ -31,7 +31,7 @@ yarn-error.log*
 .env
 
 # markdown
-COPY-PASTE-LIST.md
+*.md
 
 # vercel
 .vercel
