@@ -64,7 +64,9 @@ export const Media: CollectionConfig = {
         position: 'centre',
       },
     ],
-    mimeTypes: ['image/*'],
+    mimeTypes: ['image/*',
+    'font/*',
+    'application/postscript',],
   },
   fields: [
     {
