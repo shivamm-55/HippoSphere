@@ -45,7 +45,7 @@ export default function Home() {
             .
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            Welcome to DigitalHippo. Every asset on our
+            Welcome to HippoSphere. Every asset on our
             platform is verified by our team to ensure our
             highest quality standards.
           </p>

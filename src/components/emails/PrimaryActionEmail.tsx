@@ -37,12 +37,12 @@ export const EmailTemplate = ({
             src={`${process.env.NEXT_PUBLIC_SERVER_URL}/hippo-newsletter-sign-up.png`}
             width='150'
             height='150'
-            alt='DigitalHippo'
+            alt='HippoSphere'
             style={logo}
           />
           <Text style={paragraph}>Hi there,</Text>
           <Text style={paragraph}>
-            Welcome to DigitalHippo, the marketplace for
+            Welcome to HippoSphere, the marketplace for
             high quality digital goods. Use the button below
             to {actionLabel}.
           </Text>
@@ -54,7 +54,7 @@ export const EmailTemplate = ({
           <Text style={paragraph}>
             Best,
             <br />
-            The DigitalHippo team
+            The HippoSphere team
           </Text>
           <Hr style={hr} />
           <Text style={footer}>
