@@ -35,7 +35,7 @@ function formatPrice(price, options) {
 }
 exports.formatPrice = formatPrice;
 function constructMetadata(_a) {
-    var _b = _a === void 0 ? {} : _a, _c = _b.title, title = _c === void 0 ? 'DigitalHippo - the marketplace for digital assets' : _c, _d = _b.description, description = _d === void 0 ? 'DigitalHippo is an open-source marketplace for high-quality digital goods.' : _d, _e = _b.image, image = _e === void 0 ? '/thumbnail.png' : _e, _f = _b.icons, icons = _f === void 0 ? '/favicon.ico' : _f, _g = _b.noIndex, noIndex = _g === void 0 ? false : _g;
+    var _b = _a === void 0 ? {} : _a, _c = _b.title, title = _c === void 0 ? 'Hippo Sphere - the marketplace for digital assets' : _c, _d = _b.description, description = _d === void 0 ? 'HippoSphere is an open-source marketplace for high-quality digital goods.' : _d, _e = _b.image, image = _e === void 0 ? '/thumbnail.png' : _e, _f = _b.icons, icons = _f === void 0 ? '/favicon.ico' : _f, _g = _b.noIndex, noIndex = _g === void 0 ? false : _g;
     return __assign({ title: title, description: description, openGraph: {
             title: title,
             description: description,

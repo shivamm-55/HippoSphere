@@ -123,7 +123,7 @@ var stripeWebhookHandler = function (req, res) { return __awaiter(void 0, void 0
             case 5:
                 _c.trys.push([5, 7, , 8]);
                 return [4 /*yield*/, resend.emails.send({
-                        from: 'DigitalHippo <hello@joshtriedcoding.com>',
+                        from: 'HippoSphere <hello@joshtriedcoding.com>',
                         to: [user.email],
                         subject: 'Thanks for your order! This is your receipt.',
                         html: (0, ReceiptEmail_1.ReceiptEmailHtml)({

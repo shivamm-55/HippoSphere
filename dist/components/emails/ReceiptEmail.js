@@ -44,12 +44,12 @@ var ReceiptEmail = function (_a) {
     var total = products.reduce(function (acc, curr) { return acc + curr.price; }, 0) + 1;
     return (React.createElement(components_1.Html, null,
         React.createElement(components_1.Head, null),
-        React.createElement(components_1.Preview, null, "Your DigitalHippo Receipt"),
+        React.createElement(components_1.Preview, null, "Your HippoSphere Receipt"),
         React.createElement(components_1.Body, { style: main },
             React.createElement(components_1.Container, { style: container },
                 React.createElement(components_1.Section, null,
                     React.createElement(components_1.Column, null,
-                        React.createElement(components_1.Img, { src: "".concat(process.env.NEXT_PUBLIC_SERVER_URL, "/hippo-email-sent.png"), width: '100', height: '100', alt: 'DigitalHippo' })),
+                        React.createElement(components_1.Img, { src: "".concat(process.env.NEXT_PUBLIC_SERVER_URL, "/hippo-email-sent.png"), width: '100', height: '100', alt: 'HippoSphere' })),
                     React.createElement(components_1.Column, { align: 'right', style: tableCell },
                         React.createElement(components_1.Text, { style: heading }, "Receipt"))),
                 React.createElement(components_1.Section, { style: informationTable },
@@ -106,7 +106,7 @@ var ReceiptEmail = function (_a) {
                     ' ',
                     React.createElement(components_1.Link, { href: '#' }, "Privacy Policy ")),
                 React.createElement(components_1.Text, { style: footerCopyright },
-                    "Copyright \u00A9 2023 DigitalHippo Inc. ",
+                    "Copyright \u00A9 2023 HippoSphere Inc. ",
                     React.createElement("br", null),
                     ' ',
                     React.createElement(components_1.Link, { href: '#' }, "All rights reserved"))))));
