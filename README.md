@@ -34,7 +34,7 @@ Ensure you have the following installed on your local machine:
 1. **Clone the repository:**
 
     ```sh
-    git clone [https://github.com/shivamm-55/digital-marketplace.git](https://github.com/shivamm-55/HippoSphere.git)
+    git clone https://github.com/shivamm-55/digital-marketplace.git
     cd digital-marketplace
     ```
 
