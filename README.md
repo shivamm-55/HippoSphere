@@ -2,6 +2,8 @@
 
 Welcome to our digital marketplace! This project is a comprehensive platform built using Next.js 14, designed to provide a seamless and beautiful experience for both buyers and sellers. Below, you'll find an overview of the features, installation instructions, and commands to run the project on your local device.
 
+![Screenshot 2024-05-01 113357](https://github.com/shivamm-55/HippoSphere/assets/108998384/247b15ae-2bb0-4dce-aba8-c575413a6925)
+
 ## Features
 
 - 🛠️ **Complete marketplace built from scratch in Next.js 14**
@@ -35,7 +37,7 @@ Ensure you have the following installed on your local machine:
 
     ```sh
     git clone https://github.com/shivamm-55/digital-marketplace.git
-    cd digital-marketplace
+    cd hipposphere
     ```
 
 2. **Install dependencies:**
